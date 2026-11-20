@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore education, coding, and earning resources with Sikshya Global AI.">
+  <title>Sikshya Global AI</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="header">
+      <a class="brand" href="./" aria-label="Sikshya Global AI">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>Sikshya <small>GLOBAL AI</small></span>
+      </a>
+      <label class="language" hidden>
+        <span data-i18n="language">Language</span>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="ne">नेपाली</option>
+          <option value="hi">हिन्दी</option>
+        </select>
+      </label>
+    </header>
+
+    <main>
+      <div class="intro">
+        <p class="eyebrow" data-i18n="eyebrow">LEARN TODAY. CHANGE TOMORROW.</p>
+        <h1 data-i18n="headline">A world of learning,<br>open to you.</h1>
+        <p class="intro-copy" data-i18n="intro">Wherever you are, take the next step in your journey. Explore education, build with code, and turn your skills into opportunities.</p>
+      </div>
+
+      <div class="journey" id="journey">
+        <nav class="tabs" aria-label="Learning sections" data-i18n-aria="sectionsLabel" hidden>
+          <button type="button" data-page="0" aria-pressed="true"><span>01</span> <span data-i18n="education">Education</span></button>
+          <button type="button" data-page="1" aria-pressed="false"><span>02</span> <span data-i18n="coding">Coding</span></button>
+          <button type="button" data-page="2" aria-pressed="false"><span>03</span> <span data-i18n="earning">Learn to earn</span></button>
+        </nav>
+
+        <section class="page" data-index="0" aria-labelledby="education-title">
+          <div class="page-heading">
+            <div><p class="step" data-i18n="step1">01 / EDUCATION</p><h2 id="education-title" data-i18n="educationTitle">Start with curiosity.</h2><p data-i18n="educationDescription">Build a foundation at your own pace, from everyday subjects to new ideas.</p></div>
+            <div class="illustration" aria-hidden="true">✦ <span>✳</span></div>
+          </div>
+          <div class="cards">
+            <article><span class="card-number">01</span><h3 data-i18n="eduCard1Title">Strengthen the basics</h3><p data-i18n="eduCard1Text">Practice maths, science, and more with free lessons.</p><a href="https://www.khanacademy.org/" target="_blank" rel="noopener noreferrer" data-i18n="exploreKhan">Explore Khan Academy ↗</a></article>
+            <article><span class="card-number">02</span><h3 data-i18n="eduCard2Title">Learn something new</h3><p data-i18n="eduCard2Text">Discover free courses from universities and institutions.</p><a href="https://www.open.edu/openlearn/" target="_blank" rel="noopener noreferrer" data-i18n="exploreOpenLearn">Explore OpenLearn ↗</a></article>
+            <article><span class="card-number">03</span><h3 data-i18n="eduCard3Title">Make a learning habit</h3><p data-i18n="eduCard3Text">Choose one topic, set a small weekly goal, and share what you learn with someone.</p></article>
+          </div>
+        </section>
+
+        <section class="page" data-index="1" aria-labelledby="coding-title">
+          <div class="page-heading">
+            <div><p class="step" data-i18n="step2">02 / CODING</p><h2 id="coding-title" data-i18n="codingTitle">Create with code.</h2><p data-i18n="codingDescription">Start small, practice often, and bring your ideas to life one line at a time.</p></div>
+            <div class="illustration code-art" aria-hidden="true">&lt;/&gt;</div>
+          </div>
+          <div class="cards">
+            <article><span class="card-number">01</span><h3 data-i18n="codeCard1Title">Learn by doing</h3><p data-i18n="codeCard1Text">Try beginner-friendly coding lessons and projects.</p><a href="https://www.freecodecamp.org/learn/" target="_blank" rel="noopener noreferrer" data-i18n="exploreFreeCodeCamp">Explore freeCodeCamp ↗</a></article>
+            <article><span class="card-number">02</span><h3 data-i18n="codeCard2Title">Build for the web</h3><p data-i18n="codeCard2Text">Explore guides to HTML, CSS, and JavaScript.</p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener noreferrer" data-i18n="exploreMdn">Explore MDN ↗</a></article>
+            <article><span class="card-number">03</span><h3 data-i18n="codeCard3Title">Make your first project</h3><p data-i18n="codeCard3Text">Create a simple page about a topic you love, then keep improving it.</p></article>
+          </div>
+        </section>
+
+        <section class="page" data-index="2" aria-labelledby="earning-title">
+          <div class="page-heading">
+            <div><p class="step" data-i18n="step3">03 / LEARN TO EARN</p><h2 id="earning-title" data-i18n="earningTitle">Turn skills into possibility.</h2><p data-i18n="earningDescription">Explore ways to use your skills, prepare for work, and make informed decisions.</p></div>
+            <div class="illustration" aria-hidden="true">↗ <span>✦</span></div>
+          </div>
+          <div class="cards">
+            <article><span class="card-number">01</span><h3 data-i18n="earnCard1Title">Explore careers</h3><p data-i18n="earnCard1Text">Find out about different careers and the skills they require.</p><a href="https://www.careeronestop.org/ExploreCareers/explore-careers.aspx" target="_blank" rel="noopener noreferrer" data-i18n="exploreCareers">Explore careers ↗</a></article>
+            <article><span class="card-number">02</span><h3 data-i18n="earnCard2Title">Show your skills</h3><p data-i18n="earnCard2Text">Collect examples of your work and describe what you learned in each project.</p></article>
+            <article><span class="card-number">03</span><h3 data-i18n="earnCard3Title">Stay safe</h3><p data-i18n="earnCard3Text">Research opportunities carefully. Never pay someone to promise you a job.</p><a href="https://consumer.ftc.gov/articles/job-scams" target="_blank" rel="noopener noreferrer" data-i18n="exploreSafety">Learn about job scams ↗</a></article>
+          </div>
+        </section>
+
+        <div class="page-controls" hidden>
+          <p data-i18n="swipeHint">Swipe left or right to explore <span aria-hidden="true">↔</span></p>
+          <div><button id="previous" type="button" data-i18n="previous">← Previous</button><button id="next" type="button" data-i18n="next">Next →</button></div>
+        </div>
+      </div>
+      <p class="resource-note" data-i18n="resourceNote">External resources may not be available in every language or region.</p>
+    </main>
+    <footer><span>© Sikshya Global AI</span><span data-i18n="footer">Learning is for everyone.</span></footer>
+  </div>
+</body>
+</html>
